@@ -11,14 +11,7 @@ function show() {
     echo -e "${BLUE}$1${NC}"
 }
 
-if ! command -v curl &> /dev/null
-then
-    show "curl not found. Install curl."
-    sudo apt update && sudo apt install -y curl
-else
-    show "curl is already installed"
-fi
-echo
+sudo apt update && sudo apt install -y curl
 
 if ! command -v docker &> /dev/null
 then

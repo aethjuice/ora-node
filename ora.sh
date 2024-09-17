@@ -114,9 +114,9 @@ EOF
 
 sudo sysctl vm.overcommit_memory=1
 echo
-show "??Starting Docker containers(take time 5-10 mins)"
-echo "?Ora Protocol exited successfully."
+show "Starting Docker containers(take time 5-10 mins)"
+echo "Ora Protocol exited successfully."
 echo "Join our discord https://discord.gg/aetherealco"
 sleep 3
 echo
-sudo docker compose up
+docker-compose up

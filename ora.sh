@@ -133,4 +133,4 @@ echo "Ora Protocol exited successfully."
 echo "Join our discord https://discord.gg/aetherealco"
 sleep 3
 echo
-docker-compose up
+docker compose up
